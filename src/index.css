@@ -1,13 +1,142 @@
+html,
 body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-lightest: #fff4e6;
+  --color-light: #ffe8cc;
+  --color-medium: #ffa94d;
+  --color-dark: #ff922b;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 1px 26px -2px rgba(0, 0, 0, 0.75);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.produk {
+  background-color: rgb(98, 241, 141);
+  width: 65vh;
+  height: 77vh;
+  border-top-left-radius: 7px;
+}
+
+.produk ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 1.5rem 4rem;
+  padding-right: 40px;
+}
+
+.produk li {
+  width: 20vh;
+  border-radius: 7px;
+  height: 33vh;
+  background-color: rgb(189, 183, 199);
+  box-shadow: 4px 1px 26px -2px rgba(193, 115, 115, 0.75);
+}
+
+.produk img {
+  width: 100px;
+  height: 100px;
+}
+
+.buy {
+  background-color: bisque;
+  width: 65vh;
+  height: 77vh;
+  border-top-right-radius: 7px;
+}
+
+.button {
+  background-color: var(--color-medium);
+  color: #343a40;
+  padding: 0rem 0.8rem;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.keranjang {
+  grid-template-columns: 1fr 12rem;
+  padding: 0rem 4rem;
+}
+
+form .button {
+  margin-top: 1rem;
+  height: 50px;
+  width: 18.4rem;
+  margin-left: 15px;
+}
+
+form h2 {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 300px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-group input {
+  width: 60px;
+  text-align: center;
+  height: 20px;
+  background-color: #fadbbc;
+}
+
+.form-group label {
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.total-price {
+  margin-top: 20px;
+  display: grid;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.total-price label {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.total-price input {
+  font-weight: bolder;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  width: 18.2rem;
+  height: 3rem;
+  background-color: #fadbbc;
 }
