@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# This is my second small App using react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+in this app you can add and remove item and it counts the item and the all item cost
+### Add, Remove, and button buy will automatically go to seller WhatsApp
+![image](https://github.com/AzkaHartami/Purchase_Menu/assets/100275327/205c1b8f-b002-42af-8be6-06798b047055) ![image](https://github.com/AzkaHartami/Purchase_Menu/assets/100275327/a17903db-e8b4-4f77-ab24-2fe5a44b4156) ![image](https://github.com/AzkaHartami/Purchase_Menu/assets/100275327/b72c07b1-5279-4cc9-b424-9ba44c80d678) ![image](https://github.com/AzkaHartami/Purchase_Menu/assets/100275327/bd5bf885-084e-47ab-8c9a-fa036075d34e)
+
+
+
+
+
 
 ## Available Scripts
 
